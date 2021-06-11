@@ -1,6 +1,6 @@
 h1{
     text-align: center;
-    padding-top: 40px;
+    padding-top: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    padding-bottom: 15px;
 }
@@ -10,12 +10,58 @@ h1{
 
 .contenedor{
     margin:10px auto;
-    width: 560px ;
-    padding: 30px;
+    width: 500px ;
+    padding: 20px;
     background-color:  #99e2b4;
     border-radius: 15px;
     padding-bottom: 10px;
    
  }
+
+ 
+ .contenedor h2{
+    margin: 0 0 30px;
+    padding: 10px;
+    font-size: 30px;
+    color: #22577a;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.elemento input[type="submit"] {
+    background-color:#007f5f ;
+   
+    border: double 2px;
+    border-radius: 20px;
+    letter-spacing: 5px;
+    border-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+    margin-left: 110px;
+}
+
+
+#submit_btn:hover {
+    color: #ffffff;
+    background-color:#22577a;
+    
+}
+
+i{
+    color: #000;
+    font-size: 2.5em;
+    padding: 150px;;
+    font-size: 4.5em;
+    padding-top: 15px;
+    margin-left: 50px;
+  
+}
+
+
 
 

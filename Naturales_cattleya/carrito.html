@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>carrito</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="CSS/carrito.css"/>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-default"
+      role="navigation"
+      style="background-color: #52b788"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html" style="color: black">
+          Naturales Cattleya</a
+        >
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target=".navbar-collapse"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="navbar-collapse-collapse">
+          <ul class="nav navbar-nav navbar-left active"></ul>
+          <ul class="nav navbar-nav navbar-center"></ul>
+
+          <ul class="nav-navbar-nav-navbar-right"></ul>
+          <div class="d-flex flex-row-reverse bd-highlight"></div>
+        </div>
+      </div>
+    </nav>
+
+<div class="contenedor">
+
+  <li><a href="index.html"><i class="bi bi-x-lg"></i></a> </li>
+    <h2>Carrito<i class="bi bi-cart-check-fill"  style=color:black;></i></h2>
+    <div class="form">
+        <form>  <div class="elemento">
+           
+            <label for="producto">Producto:</label> 
+            <input type="text" id="producto" name="producto" />
+             <br /><br />
+        </div>
+        <div class="elemento">
+            <label for="Cantidad">Cantidad:</label> 
+            <input type="text" id="Cantidad" name="Cantidad"   />
+             <br /><br />
+        </div>
+        <div class="elemento">
+            <label for="descripcion">Descripción:</label> 
+            <textarea name="texto" rows="3" cols="30"></textarea>
+            <br /><br />
+            
+        </div>
+        <div class="elemento">
+            <label for="totalapagar">Total a pagar:</label> 
+            <input  id="totalapagar" name="totalapagar" 
+             /><br /><br />
+        </div>
+        <div class="elemento">
+            <input type="submit" value="Comprar" id="submit_btn" />
+          </div>
+         
+</form>
+      
+    </div>
+</div>
+
+
+
+  </body>
+</html>

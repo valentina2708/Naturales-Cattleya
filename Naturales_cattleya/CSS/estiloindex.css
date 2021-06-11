@@ -62,8 +62,8 @@ text-align: center;
   
   margin: 20px 180px  200px 350px;
   width: 700px ;
-  height: 700px;
-  padding: 20px;
+  height: 750px;
+  padding: 10px;
   background-color:  #99e2b4;
   border-radius: 15px;
  }
@@ -96,6 +96,13 @@ h6{
   margin-top: 30px;
   font-weight: bold;
   margin-left: 140px;
+}
+
+ .contenedor .form h2{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: #22577a;
+  
 }
 
 
